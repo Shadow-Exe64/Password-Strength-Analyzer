@@ -25,17 +25,31 @@ Analyze password strength through **length, character diversity, estimated entro
 
 > A terminal-inspired web interface that gives users immediate, understandable feedback about password quality.
 
-### 🔴 Weak Password State
-<img width="2400" height="1800" alt="weak" src="https://github.com/user-attachments/assets/a434ed70-1b48-45c5-9a3b-36ea8faf8576" />
+### ⚪ 1. Idle State
+<div align="center">
+  <img src="docs/screenshots/Idle.png" width="900" alt="Idle Password State">
+</div>
 
-### 🟡 Medium Password State
+<br>
 
-<img width="2400" height="1800" alt="strong" src="https://github.com/user-attachments/assets/5199ad54-d730-4a96-9cb7-f3862dd0c57c" />
+### 🔴 2. Weak Password State
+<div align="center">
+  <img src="docs/screenshots/weak.png" width="900" alt="Weak Password State">
+</div>
 
-### 🟢 Strong Password State
+<br>
 
-<img width="2400" height="1800" alt="medium" src="https://github.com/user-attachments/assets/4b6852c5-4971-4b98-8cd3-7eed497d75cf" />
+### 🟡 3. Medium Password State
+<div align="center">
+  <img src="docs/screenshots/medium.png" width="900" alt="Medium Password State">
+</div>
 
+<br>
+
+### 🟢 4. Strong Password State
+<div align="center">
+  <img src="docs/screenshots/strong.png" width="900" alt="Strong Password State">
+</div>
 
 
 
