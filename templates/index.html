@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Live password strength analyzer: length, character-class, entropy, and known-breach checks, scored server-side.">
+<title>Password Strength Analyzer</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔐</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Rajdhani:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="scene">
+
+  <div class="terminal">
+
+    <div class="titlebar">
+      <div class="dots"><span></span><span></span><span></span></div>
+      <span class="titlebar-label">credential_audit.exe</span>
+      <span class="titlebar-status" id="statusPing">● idle</span>
+    </div>
+
+    <div class="panel">
+
+      <div class="eyebrow">SECURITY TOOLKIT / CREDENTIAL AUDIT</div>
+
+      <h1>Password Strength Analyzer</h1>
+      <p class="sub">Every keystroke is scored live against length, character-class, and known-breach checks. Nothing you type is stored or transmitted anywhere beyond this analysis.</p>
+
+      <label class="field-label" for="pw">TARGET STRING</label>
+      <div class="input-row">
+        <span class="prompt">&gt;</span>
+        <input id="pw" type="password" autocomplete="new-password" spellcheck="false" placeholder="enter a password to audit_" maxlength="256" aria-describedby="verdict feedback" />
+        <button class="toggle-btn" id="toggleBtn" type="button" aria-label="Toggle password visibility">SHOW</button>
+      </div>
+
+      <div class="meter-row" role="presentation">
+        <div class="seg" id="seg1"></div>
+        <div class="seg" id="seg2"></div>
+        <div class="seg" id="seg3"></div>
+      </div>
+
+      <div class="verdict-row" aria-live="polite">
+        <span class="verdict idle" id="verdict">AWAITING INPUT</span>
+        <span class="entropy" id="entropy">0.0 bits est.</span>
+      </div>
+
+      <div class="leaked-flag" id="leakedFlag" role="alert">⚠ MATCH FOUND IN KNOWN BREACH CORPUS — DO NOT USE THIS PASSWORD.</div>
+
+      <hr class="divider" />
+
+      <div class="check-grid" id="checklist">
+        <div class="check-item" data-key="length_8plus"><span class="bracket">[ ]</span> {{ min_length }}+ characters</div>
+        <div class="check-item" data-key="length_12plus"><span class="bracket">[ ]</span> {{ ideal_length }}+ characters</div>
+        <div class="check-item" data-key="has_lowercase"><span class="bracket">[ ]</span> lowercase letter</div>
+        <div class="check-item" data-key="has_uppercase"><span class="bracket">[ ]</span> uppercase letter</div>
+        <div class="check-item" data-key="has_digit"><span class="bracket">[ ]</span> numeric digit</div>
+        <div class="check-item" data-key="has_symbol"><span class="bracket">[ ]</span> symbol</div>
+      </div>
+
+      <div class="feedback empty" id="feedback" aria-live="polite">// analysis output will appear here</div>
+
+      <div class="footline">client-side render · server-side scoring · no plaintext logging</div>
+
+    </div>
+  </div>
+
+</div>
+
+<script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
