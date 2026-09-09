@@ -27,7 +27,7 @@ Analyze password strength through **length, character diversity, estimated entro
 
 <div align="center">
 
-<img src="docs/screenshots/strong.png" alt="Password Strength Analyzer - Strong Password" width="850">
+<img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/strong.png" alt="Password Strength Analyzer - Strong Password" width="850">
 
 </div>
 
