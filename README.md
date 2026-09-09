@@ -41,10 +41,11 @@ Analyze password strength through **length, character diversity, estimated entro
 
 ### Strength states
 
+### Strength states
+
 | 🔴 Weak | 🟡 Medium | 🟢 Strong |
 | :---: | :---: | :---: |
-| <img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/weak.png" width="300" alt="Weak"> | <img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/medium.png" width="300" alt="Medium"> | <img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/strong.png" width="300" alt="Strong"> |
-
+| <img src="PASTE_WEAK_GITHUB_URL_HERE" width="300"> | <img src="PASTE_MEDIUM_GITHUB_URL_HERE" width="300"> | <img src="PASTE_STRONG_GITHUB_URL_HERE" width="300"> |
 ---
 
 # 🎯 Why This Project?
