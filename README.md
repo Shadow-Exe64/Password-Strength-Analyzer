@@ -606,25 +606,13 @@ This is possible because the analysis engine is intentionally separated from Fla
 
 ---
 
-# 👨‍💻 Author
-
 <div align="center">
 
-## Awais Khan
-
-**Python • Flask • Cybersecurity • Backend Development**
-
-Built with a focus on:
-
-**Security · Privacy · Clean Architecture · Testing · User Experience**
 
 </div>
 
 ---
 
-# ⬆️ Uploading This Project to GitHub
-
-See the step-by-step guide in the chat where this README was generated, or follow GitHub's own [quickstart guide](https://docs.github.com/en/get-started/quickstart/create-a-repo) for creating and pushing a new repository.
 
 ---
 
