@@ -25,13 +25,6 @@ Analyze password strength through **length, character diversity, estimated entro
 
 > A terminal-inspired web interface that gives users immediate, understandable feedback about password quality.
 
-### 🟢 Strong Password State
-<div align="center">
-  <img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/strong.png" width="900" alt="Strong Password State">
-</div>
-
-<br>
-
 ### 🔴 Weak Password State
 <div align="center">
   <img src="docs/screenshots/weak.png" width="900" alt="Weak Password State">
@@ -42,6 +35,13 @@ Analyze password strength through **length, character diversity, estimated entro
 ### 🟡 Medium Password State
 <div align="center">
   <img src="docs/screenshots/medium.png" width="900" alt="Medium Password State">
+</div>
+
+<br>
+
+### 🟢 Strong Password State
+<div align="center">
+  <img src="docs/screenshots/strong.png" width="900" alt="Strong Password State">
 </div>
 
 # 🎯 Why This Project?
