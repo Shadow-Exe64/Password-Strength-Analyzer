@@ -27,7 +27,9 @@ Analyze password strength through **length, character diversity, estimated entro
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/strong.png" alt="Password Strength Analyzer - Strong Password" width="850">
+<img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/strong.png" alt="Project Preview" width="850">
+
+</div>
 
 </div>
 
@@ -35,7 +37,7 @@ Analyze password strength through **length, character diversity, estimated entro
 
 |   🔴 Weak  |   🟡 Medium  |   🟢 Strong  |
 | :--------: | :----------: | :----------: |
-| `weak.png` | `medium.png` | `strong.png` |
+| <img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/weak.png" width="200"> | <img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/medium.png" width="200"> | <img src="https://raw.githubusercontent.com/Shadow-Exe64/Password-Strength-Analyzer/main/docs/screenshots/strong.png" width="200"> |
 
 ---
 
