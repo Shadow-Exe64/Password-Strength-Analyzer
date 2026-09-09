@@ -27,14 +27,14 @@ Analyze password strength through **length, character diversity, estimated entro
 
 ### ⚪ 1. Idle State
 <div align="center">
-  <img src="docs/screenshots/Idle.png" width="900" alt="Idle Password State">
+  <img width="2400" height="1800" alt="idle" src="https://github.com/user-attachments/assets/840cd6ab-ae96-4e71-9917-4916e9c28a4e" />
 </div>
 
 <br>
 
 ### 🔴 2. Weak Password State
 <div align="center">
-  <img src="docs/screenshots/weak.png" width="900" alt="Weak Password State">
+<img width="2400" height="1800" alt="weak" src="https://github.com/user-attachments/assets/520d0ab5-1b61-4775-b769-6d959138dc19" />
 </div>
 
 <br>
