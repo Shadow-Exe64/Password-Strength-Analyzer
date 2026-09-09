@@ -41,14 +41,14 @@ Analyze password strength through **length, character diversity, estimated entro
 
 ### 🟡 3. Medium Password State
 <div align="center">
-  <img src="docs/screenshots/medium.png" width="900" alt="Medium Password State">
+ <img width="2400" height="1800" alt="medium" src="https://github.com/user-attachments/assets/86c4ef5d-55d1-42ff-9905-295415349a00" />
 </div>
 
 <br>
 
 ### 🟢 4. Strong Password State
 <div align="center">
-  <img src="docs/screenshots/strong.png" width="900" alt="Strong Password State">
+  <img width="2400" height="1800" alt="strong" src="https://github.com/user-attachments/assets/b7a8a8c2-ecad-4e37-945a-e5a453a79440" />
 </div>
 
 
