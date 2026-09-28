@@ -1,6 +1,6 @@
 <div align="center">
 
-# project 1 by Decode labs 🔐 Password Strength Analyzer
+# 🔐 Password Strength Analyzer
 
 ### A privacy-first, real-time password security analyzer built with Flask & Python.
 
